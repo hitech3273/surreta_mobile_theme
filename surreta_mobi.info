@@ -1,0 +1,36 @@
+name = Surreta Mobi Theme
+description =  Surreta Mobi theme<br/>Developed & Designed by <a href="http://www.surreta.com">Surreta</a> <br/>Contact us for Drupal Design & Development <a href="mailto:hitech3273@hotmail.com">hitech3273@hotmail.com</a> 
+core = 7.x
+
+engine = phptemplate
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/media.css
+stylesheets[all][] = css/htc.css
+scripts[] 		   = js/surretamobi.js
+
+regions[user_menu]  	= User menu
+regions[search]  		= Search
+regions[contact_number] = Contact Number
+regions[banner]         = Banner
+regions[front_welcome]  = Front Welcome
+regions[content]        = Content
+regions[content_top]    = Content Top
+regions[footer]         = Footer
+regions[footer_note]    = Footer Note
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[breadcrumbs]  = 1
+settings[social_links]  = 1
+settings[twitter_username] = "surretas"
+settings[facebook_username] = "surreta"
+settings[google+_username] = "+HitechComp"
+settings[linkedin_username] = "hitech-computers-46891869"
